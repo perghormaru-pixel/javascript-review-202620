@@ -1,0 +1,34 @@
+{
+  "name": "javascript-review",
+  "version": "1.0.0",
+  "description": "A sample JavaScript project demonstrating Object-Oriented Programming and Domain Driven Design concepts in a Supply Chain and Procurement context.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "JavaScript",
+    "oop",
+    "supply-chain",
+    "procurement",
+    "domain-driven-design",
+    "ddd"
+  ],
+  "dependencies": {
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "17.12.0",
+    "prettier": "^3.9.6"
+  },
+  "author": "Luis Alonso Huaco Oliva",
+  "license": "MIT",
+  "private": true
+}
